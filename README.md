@@ -7,6 +7,8 @@ This is qwik starter kit bundled with the following.
 -   [Playwright](https://playwright.dev/) - End-to-end testing framework
 -   [Partytown](https://partytown.builder.io/) - Third-Party Scripts From A Web Worker
 -   [Unpic](https://unpic.pics/img/qwik/) - An image optimisation
+-   [Modular Forms](https://qwik.dev/docs/integrations/modular-forms/) - A type-safe form library
+-   [Valibot](https://valibot.dev/guides/introduction/) - A type-safe form library
 -   [Cloudflare Pages Adapter](https://qwik.dev/docs/deployments/cloudflare-pages/#cloudflare-pages-adapter) - For deploying application to [Cloudflare Pages](https://developers.cloudflare.com/pages)
 -   GitHub action
     -   An action for formatting code with Prettier
