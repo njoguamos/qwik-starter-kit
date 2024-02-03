@@ -7,6 +7,7 @@ This is qwik starter kit bundled with the following.
 -   [Playwright](https://playwright.dev/) - End-to-end testing framework
 -   [Partytown](https://partytown.builder.io/) - Third-Party Scripts From A Web Worker
 -   [Auth JS](https://qwik.dev/docs/integrations/authjs/) - A well-known library for authentication
+-   [Unpic](https://unpic.pics/img/qwik/) - An image optimisation
 -   [Cloudflare Pages Adapter](https://qwik.dev/docs/deployments/cloudflare-pages/#cloudflare-pages-adapter) - For deploying application to [Cloudflare Pages](https://developers.cloudflare.com/pages)
 -   GitHub action
     -   An action for formatting code with Prettier
