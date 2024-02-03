@@ -15,9 +15,6 @@ export default defineConfig((): UserConfig => {
       headers: {
         "Cache-Control": "public, max-age=600",
       },
-    },
-    optimizeDeps: {
-      include: [ "@auth/core" ]
     }
   };
 });

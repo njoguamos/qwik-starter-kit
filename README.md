@@ -6,7 +6,6 @@ This is qwik starter kit bundled with the following.
 -   [Daisy UI](https://daisyui.com/) - Tailwindcss component library
 -   [Playwright](https://playwright.dev/) - End-to-end testing framework
 -   [Partytown](https://partytown.builder.io/) - Third-Party Scripts From A Web Worker
--   [Auth JS](https://qwik.dev/docs/integrations/authjs/) - A well-known library for authentication
 -   [Unpic](https://unpic.pics/img/qwik/) - An image optimisation
 -   [Cloudflare Pages Adapter](https://qwik.dev/docs/deployments/cloudflare-pages/#cloudflare-pages-adapter) - For deploying application to [Cloudflare Pages](https://developers.cloudflare.com/pages)
 -   GitHub action
@@ -21,24 +20,6 @@ Clone the repo
 
 ```shell
 git clone git@github.com:njoguamos/qwik-starter-kit.git project-name
-```
-
-Create local `.env`
-
-```shell
-cp .env.example .env.local
-```
-
-Generate `AUTH_SECRET`
-
-```shell
-openssl rand -base64 64  | tr -d '\n' ; echo
-```
-
-Update the env
-
-```dotenv
-AUTH_SECRET=bmr..0+Cw==
 ```
 
 ## Development
