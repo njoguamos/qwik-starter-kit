@@ -19,7 +19,6 @@ const EmailCredentials = Credentials({
     // @ts-ignore
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     async authorize(credentials) {
-
         // Get user from your api
         // resp = await fetch('https://example.com/login', {})
         //

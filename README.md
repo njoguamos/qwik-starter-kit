@@ -1,15 +1,16 @@
 # Qwik Starter Kit ⚡️
 
 This is qwik starter kit bundled with the following.
-- [Tailwindcss](https://tailwindcss.com/docs/installation) - CSS framework
-- [Daisy UI](https://daisyui.com/) - Tailwindcss component library
-- [Playwright](https://playwright.dev/) - End-to-end testing framework
-- [Partytown](https://partytown.builder.io/) - Third-Party Scripts From A Web Worker
-- [Auth JS](https://qwik.dev/docs/integrations/authjs/) - A well-known library for authentication
-- [Cloudflare Pages Adapter](https://qwik.dev/docs/deployments/cloudflare-pages/#cloudflare-pages-adapter) - For deploying application to [Cloudflare Pages](https://developers.cloudflare.com/pages)
-- GitHub action
-  - An action for formatting code with Prettier
-  - An action for running playwright end-to-end test
+
+-   [Tailwindcss](https://tailwindcss.com/docs/installation) - CSS framework
+-   [Daisy UI](https://daisyui.com/) - Tailwindcss component library
+-   [Playwright](https://playwright.dev/) - End-to-end testing framework
+-   [Partytown](https://partytown.builder.io/) - Third-Party Scripts From A Web Worker
+-   [Auth JS](https://qwik.dev/docs/integrations/authjs/) - A well-known library for authentication
+-   [Cloudflare Pages Adapter](https://qwik.dev/docs/deployments/cloudflare-pages/#cloudflare-pages-adapter) - For deploying application to [Cloudflare Pages](https://developers.cloudflare.com/pages)
+-   GitHub action
+    -   An action for formatting code with Prettier
+    -   An action for running playwright end-to-end test
 
 ---
 
@@ -81,11 +82,11 @@ Inside your project, you'll see the following directory structure:
         └── ...
 ```
 
-- `src/routes`: Provides the directory-based routing, which can include a hierarchy of `layout.tsx` layout files, and an `index.tsx` file as the page. Additionally, `index.ts` files are endpoints. Please see the [routing docs](https://qwik.builder.io/qwikcity/routing/overview/) for more info.
+-   `src/routes`: Provides the directory-based routing, which can include a hierarchy of `layout.tsx` layout files, and an `index.tsx` file as the page. Additionally, `index.ts` files are endpoints. Please see the [routing docs](https://qwik.builder.io/qwikcity/routing/overview/) for more info.
 
-- `src/components`: Recommended directory for components.
+-   `src/components`: Recommended directory for components.
 
-- `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
+-   `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
 
 ## Add Integrations and deployment
 
@@ -94,7 +95,6 @@ Use the `npm run qwik add` command to add additional integrations. Some examples
 ```shell
 npm run qwik add # or `yarn qwik add`
 ```
-
 
 ## Cloudflare Pages
 

@@ -1,0 +1,13 @@
+{
+    "plugins": ["prettier-plugin-tailwindcss", "@trivago/prettier-plugin-sort-imports"],
+    "arrowParens": "always",
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "es5",
+    "printWidth": 120,
+    "singleAttributePerLine": true,
+    "importOrder": ["^@builder.io/(.*)$", "^@unpic/(.*)$", "^/components/(.*)$", "^/icons/(.*)$", "^[./]"],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
+}
