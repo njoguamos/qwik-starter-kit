@@ -1,7 +1,5 @@
-/**
- * Tailwind CSS imports
- * View the full documentation at https://tailwindcss.com
- */
+@import '_fonts.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
