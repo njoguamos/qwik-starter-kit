@@ -24,6 +24,12 @@ Clone the repo
 git clone git@github.com:njoguamos/qwik-starter-kit.git project-name
 ```
 
+Create local env file
+
+```shell
+cp .env.example .env.local
+```
+
 ## Development
 
 Development mode uses [Vite's development server](https://vitejs.dev/). The `dev` command will server-side render (SSR) the output during development.
