@@ -1,3 +1,5 @@
+import { QwikPartytown } from '~/components/partytown/partytown'
+
 import { component$ } from '@builder.io/qwik'
 import { QwikCityProvider, RouterOutlet, ServiceWorkerRegister } from '@builder.io/qwik-city'
 
@@ -19,6 +21,13 @@ export default component$(() => {
                 <link
                     rel="manifest"
                     href="/manifest.json"
+                />
+                <QwikPartytown />
+                <script
+                    async
+                    type="text/partytown"
+                    data-domain="example.com"
+                    src="https://plausible.io/js/script.js"
                 />
                 <RouterHead />
                 <ServiceWorkerRegister />
