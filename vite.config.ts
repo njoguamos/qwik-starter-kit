@@ -10,7 +10,9 @@ import { qwikVite } from '@builder.io/qwik/optimizer'
 export default defineConfig((): UserConfig => {
     return {
         plugins: [
-            qwikCity(),
+            qwikCity({
+                trailingSlash: false
+            }),
             qwikVite(),
             tsconfigPaths(),
             partytownVite({ dest: join(__dirname, 'dist', '~partytown') }),
