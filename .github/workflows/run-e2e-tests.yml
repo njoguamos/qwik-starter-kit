@@ -1,7 +1,0 @@
-name: Run Playwright Tests
-
-on: pull_request
-
-jobs:
-    run-e2e-tests:
-        uses: artisanelevated/workflows/.github/workflows/run-playwright-test.yml@main

@@ -1,7 +1,0 @@
-name: Format JS Code
-
-on: pull_request
-
-jobs:
-    format-code:
-        uses: artisanelevated/workflows/.github/workflows/format-js-code.yml@main
