@@ -41,7 +41,7 @@
         "@typescript-eslint/parser": "^6.21.0",
         "@unpic/qwik": "^0.0.44",
         "autoprefixer": "^10.4.19",
-        "daisyui": "^4.9.0",
+        "daisyui": "^4.10.1",
         "eslint": "^8.57.0",
         "eslint-plugin-qwik": "^1.5.1",
         "postcss": "^8.4.38",
