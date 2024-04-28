@@ -6,6 +6,10 @@ import { QwikCityProvider, RouterOutlet, ServiceWorkerRegister } from '@builder.
 import { RouterHead } from './components/router-head/router-head'
 import './css/global.css'
 
+const domain: string = import.meta.env.PUBLIC_PLAUSIBLE_DOMAIN
+const event: string = import.meta.env.PUBLIC_PLAUSIBLE_EVENT_ENDPOINT
+const src: string = import.meta.env.PUBLIC_PLAUSIBLE_SCRIPT_URL
+
 export default component$(() => {
     /**
      * The root of a QwikCity site always start with the <QwikCityProvider> component,
@@ -17,17 +21,13 @@ export default component$(() => {
     return (
         <QwikCityProvider>
             <head>
-                <meta charSet="utf-8" />
-                <link
-                    rel="manifest"
-                    href="/manifest.json"
-                />
                 <QwikPartytown />
                 <script
                     async
                     type="text/partytown"
-                    data-domain="example.com"
-                    src="https://plausible.io/js/script.js"
+                    data-api={`${event}`}
+                    src={`${src}`}
+                    data-domain={`${domain}`}
                 />
                 <RouterHead />
                 <ServiceWorkerRegister />
