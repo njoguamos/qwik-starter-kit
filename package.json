@@ -39,7 +39,7 @@
         "@types/node": "^20.12.7",
         "@typescript-eslint/eslint-plugin": "^7.7.1",
         "@typescript-eslint/parser": "^7.7.1",
-        "@unpic/qwik": "^0.0.44",
+        "@unpic/qwik": "^0.0.46",
         "autoprefixer": "^10.4.19",
         "daisyui": "^4.10.2",
         "eslint": "^8.57.0",
