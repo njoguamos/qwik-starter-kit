@@ -43,7 +43,7 @@
         "autoprefixer": "^10.4.19",
         "daisyui": "^4.12.10",
         "eslint": "^8.57.0",
-        "eslint-plugin-qwik": "^1.6.0",
+        "eslint-plugin-qwik": "^1.7.1",
         "postcss": "^8.4.39",
         "prettier": "^3.3.3",
         "prettier-plugin-tailwindcss": "^0.6.5",
