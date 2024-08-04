@@ -31,7 +31,7 @@
     "devDependencies": {
         "@builder.io/partytown": "^0.10.2",
         "@builder.io/qwik": "^1.7.3",
-        "@builder.io/qwik-city": "^1.7.1",
+        "@builder.io/qwik-city": "^1.7.3",
         "@modular-forms/qwik": "^0.26.1",
         "@playwright/test": "^1.45.3",
         "@trivago/prettier-plugin-sort-imports": "^4.3.0",
